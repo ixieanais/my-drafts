@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "electron-vue-template",
+      "name": "my-drafts",
       "dependencies": {
         "vue": "^3.5.42",
       },

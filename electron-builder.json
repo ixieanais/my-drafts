@@ -1,5 +1,6 @@
 {
     "appId": "com.ixieanais.my-drafts",
+    "productName": "MyDrafts",
     "directories": {
         "output": "dist"
     },
@@ -11,10 +12,12 @@
         "shortcutName": "MyDrafts"
     },
     "win": {
-        "target": "nsis"
+        "target": "nsis",
+        "icon": "assets/icon.ico"
     },
     "linux":  {
-        "target": ["snap"]
+        "target": ["snap"],
+        "icon": "assets/icon.png"
     },
     "files": [
         {
